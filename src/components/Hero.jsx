@@ -8,7 +8,7 @@ function Hero() {
     const initTyped = () => {
       if (window.Typed && typedRef.current && !typedInstanceRef.current) {
         typedInstanceRef.current = new window.Typed(typedRef.current, {
-          strings: ['Software Engineer', 'Web Developer', 'AI Trainer', 'IT Officer'],
+          strings: ['Software Engineer', 'Web Developer', 'AI Trainer'],
           loop: true,
           typeSpeed: 90,
           backSpeed: 45,
