@@ -8,7 +8,7 @@ function Hero() {
     const initTyped = () => {
       if (window.Typed && typedRef.current && !typedInstanceRef.current) {
         typedInstanceRef.current = new window.Typed(typedRef.current, {
-          strings: ['Software Engineer', 'Web Developer', 'AI Trainer', 'IT Officer', 'IT Support'],
+          strings: ['Software Engineer', 'Web Developer', 'AI Trainer', 'IT Officer'],
           loop: true,
           typeSpeed: 90,
           backSpeed: 45,
@@ -136,7 +136,7 @@ function Hero() {
           {/* Right Column: Video Display Card with Massive RGB Sunrise Aura Glow */}
           <div className="col-lg-6 col-md-6 text-start d-flex justify-content-start">
             <div style={{ position: 'relative', width: 'fit-content', margin: '20px 0' }}>
-              
+
               {/* Massive Spreading RGB Sunrise Glow Aura (Layer 1 - Outward Spreading Shadow) */}
               <div
                 className="giant-rgb-aura"
